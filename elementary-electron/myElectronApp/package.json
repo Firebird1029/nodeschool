@@ -1,0 +1,20 @@
+{
+  "name": "myelectronapp",
+  "version": "1.0.0",
+  "description": "npm install -g elementary-electron electron",
+  "main": "app.js",
+  "scripts": {
+    "ee": "./node_modules/elementary-electron/bin/elementary-electron",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Yee",
+  "license": "ISC",
+  "dependencies": {
+    "cat-picture": "^5.1.2",
+    "lightning-image-poly": "0.0.10"
+  },
+  "devDependencies": {
+    "electron": "^8.2.2",
+    "elementary-electron": "^1.5.2"
+  }
+}
